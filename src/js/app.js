@@ -34,7 +34,7 @@ function render(variables = {}) {
   }
   if (variables.lastname == null) variables.lastname = "Doe";
   if (variables.lastname !== null && variables.lastname.trim() == "") {
-    variables.lastname = "Gafo";
+    variables.lastname = "Chistosito";
   }
   if (variables.role == null) variables.role = "Grand Mage";
   if (variables.city == null) variables.city = "Narnia";
