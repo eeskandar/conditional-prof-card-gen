@@ -40,9 +40,10 @@ function render(variables = {}) {
   if (variables.city == null) variables.city = "Narnia";
   if (variables.country == null) variables.country = "The Wardrobe";
   if (variables.twitter == null) variables.twitter = "4geeksacademy";
-  if (variables.linkedin == null) variables.linkedin = "school/4geeksacademy";
-  if (variables.linkedin != null)
+  if (variables.linkedin != null) {
     variables.linkedin = `in/${variables.linkedin}`;
+  }
+  if (variables.linkedin == null) variables.linkedin = "school/4geeksacademy";
   if (variables.instagram == null) variables.instagram = "4geeksacademy";
 
   // reset the website body with the new html output
